@@ -1,4 +1,4 @@
-FROM jwilder/nginx-proxy
+FROM purplepeopleeater/nginx-proxy:latest
 
 MAINTAINER David Parrish <daveparrish@tutanota.com>
 MAINTAINER Yves Blusseau <90z7oey02@sneakemail.com>
