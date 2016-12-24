@@ -35,8 +35,8 @@ log_format vhost '$server_name - $host - $remote_addr - $remote_user [$time_loca
                  '[$status $body_bytes_sent] [$gzip_ratio] [$connection_requests] '
                  '"$request" "$http_referer" "$http_user_agent" ';
   
-+access_log on;
- +error_log /dev/stdout info;
+access_log on;
+error_log /dev/stdout info;
  	gzip on;
 
 	gzip_vary on;
